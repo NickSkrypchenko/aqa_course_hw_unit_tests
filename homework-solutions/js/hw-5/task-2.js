@@ -16,6 +16,3 @@
  * ...
  * 100 - делится на 5
  */
-let fizzBuzzResult = '';
-
-export { fizzBuzzResult };
