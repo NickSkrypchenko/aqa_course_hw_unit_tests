@@ -12,10 +12,7 @@ const array = [1,2,3,4,5,6,7,8,9,10];
 const forOf = [];
 
 for (const value of array) {
-  if (value %2 ===0) {
-    forOf.push(value ** 2);
-   } else { forOf.push(value ** 3);
-   }
+    forOf.push(value %2 ===0  ? value ** 2 : value ** 3);
 }
 console.log(forOf);
 
