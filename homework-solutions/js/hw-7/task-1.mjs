@@ -22,7 +22,7 @@ function mergeArrays(...arrays) {
   */
 
 function devideBy(sentence) {
-  const words = sentence.split(" "); 
+  const words = sentence.split(" ").filter(Boolean);; 
   const capitalNames = words.map((word, index) => {
     if (index === 0) {
       return word.toLowerCase();
