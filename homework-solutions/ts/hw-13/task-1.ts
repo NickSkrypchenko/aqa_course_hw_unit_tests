@@ -58,6 +58,10 @@ interface IAddress {
 	zipCode: number;
 }
 
+interface IFullAddress extends IAddress {
+	country: string;
+}
+
 /* 
 5.	Создайте объединение типов:
 	– Тип Product с полями id (число), name (строка), и price (число).
